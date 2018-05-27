@@ -12,7 +12,7 @@ std::vector<double> wspolczynnikiAproksymacja(double a, double b, double dokladn
         zmienna2 = wzorSimpsona(a, b, dokladnosc, wskFunckja2, wskFunckja2, i);
         if (zmienna1 < 0.0001) zmienna1 = 0;
         if (zmienna2 < 0.0001) zmienna2 = 0;
-        if (zmienna2 == 0){
+        if (zmienna2 == 0) {
             wspolczynniki.push_back(0);
         }
         else{
