@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(InterpolacjaLagrancaRownolegla)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(InterpolacjaLagrancaRownolegla main.cpp zapisOrazOdczyt.cpp schematHorneraOrazFunkcje.cpp interpolacja.cpp zmiennaGlobalnaOrazWskaznikNaFunkcje.cpp schematHorneraOrazFunkcje.h interpolacja.h zapisOrazOdczyt.h)
