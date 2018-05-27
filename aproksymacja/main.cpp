@@ -47,7 +47,7 @@ int main() {
             wskFunckja1 = wykladnicza;
             break;
         default:
-            std::cout << "zly numer!" << std::endl;
+            std::cout << "zly numer" << std::endl;
             return -1;
     }
 
